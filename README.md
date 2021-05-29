@@ -3,7 +3,7 @@
 2. The application asks for the license plate number.
 3. On click of Send Button the details of the car is displayed
     and list of images for the car is displayed as a carousal.
-4. Used styled components for styling
+4. Used styled components for styling.
 5. The redux structure is a representation of ducks pattern.
 
 # Technolgies used 
@@ -28,7 +28,7 @@ https://github.com/kumkumsingh/DutchVIN.git
 
 2. cd to the folder dutchvin.
 
-  cd DutchVIN/dutchvin
+    cd DutchVIN/dutchvin
 
 <a name="Installations"></a>
 
@@ -36,7 +36,7 @@ https://github.com/kumkumsingh/DutchVIN.git
 
 * Give the following command in the command line.
 
-  npm i
+    npm i
 
 <a name="Howtoruntheapplication"></a>
 
@@ -44,6 +44,6 @@ https://github.com/kumkumsingh/DutchVIN.git
 
 * Give the following command for running in localhost.
 
- npm run start
+    npm run start
 
- http://localhost:3000/
+    http://localhost:3000/
