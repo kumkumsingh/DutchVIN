@@ -28,7 +28,7 @@ https://github.com/kumkumsingh/DutchVIN.git
 
 2. cd to the folder dutchvin.
 
-cd DutchVIN/dutchvin
+  cd DutchVIN/dutchvin
 
 <a name="Installations"></a>
 
@@ -36,7 +36,7 @@ cd DutchVIN/dutchvin
 
 * Give the following command in the command line.
 
-npm i
+  npm i
 
 <a name="Howtoruntheapplication"></a>
 
@@ -44,6 +44,6 @@ npm i
 
 * Give the following command for running in localhost.
 
-npm run start
+ npm run start
 
-http://localhost:3000/
+ http://localhost:3000/
