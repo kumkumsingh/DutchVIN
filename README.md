@@ -21,16 +21,29 @@
 
 <a name="Setoftheproject"></a>
 # Set of theproject
+
 1. Clone the repository by using the following command.
+
 https://github.com/kumkumsingh/DutchVIN.git
+
 2. cd to the folder dutchvin.
+
 cd DutchVIN/dutchvin
 
+<a name="Installations"></a>
+
 # Installations
+
 * Give the following command in the command line.
+
 npm i
 
-#Run the project on localhost
+<a name="Howtoruntheapplication"></a>
+
+* Run the project on localhost
+
 * Give the following command for running in localhost.
+
 npm run start
+
 http://localhost:3000/
