@@ -92,26 +92,3 @@ function callVehicleDetails({ data }) {
     .get(`https://api.overheid.io/voertuiggegevens/${data}`)
     .set('ovio-api-key', api_key);
 }
-// const callVehicleDetails = async ({ data }) => {
-//     try {
-//       const details = await axios.get((`https://api.overheid.io/voertuiggegevens/${data}`), {
-//               headers: {
-//                 'ovio-api-key': `${api_key}`
-//               }
-//             })
-  
-//       return details.data
-//     } catch(err) {
-//       return console.error(err)
-//     }
-//   }
-//   React.useEffect(() =>{
-//     axios.get('https://api.overheid.io/voertuiggegevens/4TFL24', {
-//       headers: {
-//         'ovio-api-key': `${api_key}`
-//       }
-//     })
-//     .then(details =>{
-//       setDetails(details.data)
-//     });
-//    },[])

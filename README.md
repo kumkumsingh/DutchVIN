@@ -24,11 +24,11 @@
 
 1. Clone the repository by using the following command.
 
-https://github.com/kumkumsingh/DutchVIN.git
+https://github.com/kumkumsingh/dutchvin.git
 
 2. cd to the folder dutchvin.
 
-    cd DutchVIN/dutchvin
+    cd dutchvin
 
 <a name="Installations"></a>
 

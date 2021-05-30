@@ -90,24 +90,12 @@ function* getCarImages({ data, callback }){
 
 function callCarImages({ data }) {
     if(!data){
-        // return  axios.get(`https://api.unsplash.com/search/photos?query=cars`, {
-        //     headers:{
-        //       'Accept-Version': 'v1',
-        //       'Authorization':`${access_key}`
-        //     }
-        //   })
     return request
             .get(`https://api.unsplash.com/search/photos?query=cars`)
             .set('Accept-Version', 'v1')
             .set('Authorization', access_key);
     }
     else{
-    //    return axios.get(`https://api.unsplash.com/search/photos?query=${data}`, {
-    //         headers:{
-    //           'Accept-Version': 'v1',
-    //           'Authorization':`${access_key}`
-    //         }
-    //       })
         return request
             .get(`https://api.unsplash.com/search/photos?query=${data}`)
             .set('Accept-Version', 'v1')

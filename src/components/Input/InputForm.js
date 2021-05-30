@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { Input, Header, Button } from 'semantic-ui-react';
+import {  Header } from 'semantic-ui-react';
 import styled from 'styled-components';
 import DetailsStore from '../../redux/CarDetails';
 
@@ -24,18 +24,27 @@ const StyledHeader = styled(Header)`
     }
 `;
 
-const StyledInput = styled(Input)`
-    &.ui.input>input{
+const StyledInput = styled.input`
         background: #ffdf35 !important;
         text-transform: uppercase !important;
-        border-right:none!important;
-    }
+        border-radius:none!important;
+        border:none!important;
+        width:150px;
+        height:40px;
+        padding-left:10px;
+    
 `;
 
-const StyledButton = styled(Button)`
+const StyledButton = styled.button`
     background-color: white !important;
     color: black !important;
     border-color: white !important;
+    padding:10px ;
+    border-radius:none!important;
+    border:none;
+    width:100px;
+    height:40px;
+    
 `;
 const StyledWrapper = styled.div`
     display:flex;
@@ -66,8 +75,8 @@ const InputForm = () => {
                 <StyledHeader as="h1">Please enter your license plate number</StyledHeader>
                 <StyledWrapper>
                     <StyledInput 
-                        onChange={handleChange} style={{borderRadius:'none'}}/>
-                    <StyledButton onClick={handleClick} style={{borderRadius:'none'}}>Send</StyledButton>
+                        onChange={handleChange}/>
+                    <StyledButton onClick={handleClick} >Send</StyledButton>
                 </StyledWrapper>
             </InnerDiv>  
         </React.Fragment>
