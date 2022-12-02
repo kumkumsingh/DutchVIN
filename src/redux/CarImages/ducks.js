@@ -71,6 +71,7 @@ export function* saga(){
 };
  
 function* getCarImages({ data, callback }){
+    console.log('data',data);
     try{
         const response = yield call(callCarImages, { data });
         yield put({
